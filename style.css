@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header_115 {
+  background: url("https://ik.imagekit.io/tvlk/blog/2022/02/dia-diem-du-lich-ninh-thuan-cover.jpeg") top right / cover no-repeat;
+  top: 0;
+  position: relative;
+  right: 0;
+  left: 0;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+#nav {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 46px;
+  background-color: #ccc;
+  position: relative;
+}
+
+#nav > li {
+   display: inline-block;
+}
+
+#nav li a {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    line-height: 46px;
+    text-transform: uppercase;
+    position: relative;
+    color: black;
+}
+
+#nav > li:hover,
+#nav .sub_nav li:hover {
+  background-color: rgb(51, 49, 49);
+}
+
+#nav > li:hover a,
+#nav .sub_nav li:hover a{
+  color: white;
+}
+
+#nav .sub_nav {
+  display: none;
+  position: absolute;
+  background-color: #ddcaca;
+  list-style-type: none;
+}
+
+#nav .sub_nav li {
+  min-width: 140px;
+}
+
+#nav .sub_nav li a {
+  color: black;
+}
+
+#nav li:hover .sub_nav {
+  display: block;
+}
+
+
+
+.container {
+ width: 100%;
+ height: 800px;
+}
+
+.col1 {
+  height: 100%;
+  background: url("https://bvhttdl.mediacdn.vn/291773308735864832/2022/10/3/c-tham-cham-1664540227797626230394-1664760491139-16647604912172001719129.jpeg") top right / cover no-repeat;
+  width: 20%;
+  float: left;
+  color:black;
+}
+.col1 li a{
+
+    text-decoration: none;
+    color :black; 
+    font-size :20px;
+}
+.col1 li:hover {
+  background-color: #ccc;
+  }
+.col2 {
+  height: 100%;
+  width: 60%;
+  float: left;
+  text-align: center
+ 
+}
+
+.col2 form {
+  margin-top: 20px;
+}
+
+.col3  {
+ 
+  width: 20% ;
+  height: 100%;
+  background: url("https://i2.ex-cdn.com/crystalbay.com/files/content/2023/12/25/tour-nha-trang-ninh-thuan-4-ngay-3-dem-1-2200.jpg") top right / cover no-repeat;
+  float: right;
+  text-align: center;
+}
+.col3 li a{
+  text-decoration: none;
+  color :black; 
+  font-size :20px;
+}
+.col3 li:hover {
+background-color: #ccc;
+}
+.col3 li{
+  list-style-type: none;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #333;
+  color: white;
+  
+}
+
+
+.col4 {
+  width: 33.333%;
+  height: 100%;
+  padding: 30px;
+  float: left;
+}
+
+.col5 {
+  width: 33.333%;
+  height: 100%;
+  text-align: left;
+  padding: 30px;
+  float: left;
+}
+
+.col6 {
+  padding: 30px;
+  width: 33.333%;
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+
+
+
+
+#content_856 {
+  width: 100%;
+}
+.big_box_856 {
+  width: 700px;
+  margin-left: 17px;
+  margin-top: 15px;
+}
+.big_box_mid_856 {
+  padding: 5px;
+  background-color: #dfcfcf;
+  border-radius: 15px;
+  box-shadow: 0px 2px 2px black;
+  margin-left: 20px;
+}
+
+
+
+
+
+#left_856 {
+  width: 196px;
+  margin-left: 225px;
+}
+#right_856 {
+  width: 196px;
+  margin-right: 215px;
+}
+
+
+
+
+.big_box_mid_856 img{
+  height: 250px;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
